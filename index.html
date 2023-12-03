@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+   <div id="container"  >
+    <header class="header">
+        <ul> 
+            <li> <a id="home" href="#">Home</a></li>
+            <li> <a id="album" href="#">Album</a></li>
+            <li> <a id="tranding" href="#">Trending</a></li>
+            <li> <a id="favourite" href="#">Favourite</a></li>
+        </ul>
+      </header>
+
+  <main class="main" id="cont">  
+
+    <div id="trand" class="shadow">
+      <h1 onclick="next(3)"class="play">play</h1>
+    </div>
+
+
+    <div id="favourit" class="shadow">
+      <h1 onclick="next(6)">play</h1>
+    </div>
+     
+
+    <img id="like" src="img/like.png" alt="">
+    <img id="LIKE" src="img/redheart.png" alt="">
+ 
+
+     
+
+      <img class="slidesong" src="img/hirye.jpg" alt="hello">
+      <img class="slidesong" src="img/maxresdefault (1).jpg" alt="hello">
+      <img class="slidesong" src="img/maxresdefault (2).jpg" alt="">
+      <img class="slidesong" src="img/maxresdefault (3).jpg" alt="img">
+      <img class="slidesong" src="img/maxresdefault (5).jpg" alt="img2">
+      <img class="slidesong" src="img/maxresdefault (4).jpg" alt="img3">
+      <img class="slidesong" src="img/sunny.jpg" alt="img4">
+      <img class="slidesong" src="img/maxresdefault (3).jpg" alt="">
+      
+
+    <div id="songcontainer">
+     
+      <div class="song">
+        <img class="songimages" src="img/hirye.jpg" alt="img">
+        <p>SONG</p>
+        <img  src="icon/puse icon.png" style="width: 15px; height: 18px;"alt="" onclick="next(0)">
+        <audio id="myAudio">
+          <source src="song/2.mp3" type="audio/mp3">
+          <!-- <source src="song/3.mp3" type="audio/mpeg">  -->
+         </audio> 
+      </div>
+
+
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault (1).jpg" alt="img">
+        <p>SONG </p>
+        <p class="currenttime"></p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(1)">
+        <audio id="myAudio">
+          <source src="song/3.mp3" type="audio/mp3">
+          <!-- <source src="song/3.mp3" type="audio/mpeg">  -->
+         </audio> 
+      </div>
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault (2).jpg" alt="img">
+        <p>SONG</p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt="" onclick="next(2)">
+        <audio id="myAudio">
+          <source src="song/3.mp3" type="audio/mp3">
+          <source src="song/3.mp3" type="audio/mpeg"> 
+        </audio>
+      </div>
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault (3).jpg" alt="img">
+        <p> SONG</p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt="" onclick="next(3)">
+        <audio id ="myAudio">
+          <source src="song/4.mp3" type="audio/mp3">
+           <source src="song/4.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault (5).jpg" alt="img">
+        <p>SONG</p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(2)">
+        <audio id ="myAudio">
+          <source src="song/5.mp3" type="audio/mp3">
+          <source src="song/5.mp3" type="audio/mpeg"> 
+        </audio>
+      </div>
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault.jpg" alt="img">
+        <p>SONG</p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(1)">
+        <audio id="myAudio">
+          <source src="song/6.mp3" type="audio/mp3">
+          <source src="song/6.mp3" type="audio/mpeg">
+        </audio> 
+      </div>
+
+
+      <div class="song">
+        <img class="songimages" src="img/maxresdefault.jpg" alt="img">
+        <p>SONG</p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(3)">
+        <audio id="myAudio">
+          <source src="song/7.mp3" type="audio/mp3">
+          <source src="song/7.mp3" type="audio/mpeg"> 
+        </audio>
+      </div>
+
+      <div class="song">
+        <img class="songimages" src="img/sunny.jpg" alt="img">
+        <p>let me love you 8 </p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(2)">
+         <audio id="myAudio">
+          <source src="song/8.mp3" type="audio/mp3">
+          <source src="song/8.mp3" type="audio/mpeg">
+         </audio> 
+      </div>
+      <div class="song">
+        <img class="songimages" src="img/sunny.jpg" alt="img">
+        <p>let me love you 8 </p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(1)">
+         <audio id="myAudio">
+          <source src="song/8.mp3" type="audio/mp3">
+          <source src="song/8.mp3" type="audio/mpeg">
+         </audio> 
+      </div>
+      <div class="song">
+        <img class="songimages" src="img/sunny.jpg" alt="img">
+        <p>song  </p>
+        <img src="icon/puse icon.png" style="width: 15px; height: 18px;"alt=""onclick="next(3)">
+         <audio id="myAudio">
+          <source src="song/9.mp3" type="audio/mp3">
+          <source src="song/9.mp3" type="audio/mpeg">
+         </audio> 
+      </div>
+       
+    </div>
+    
+    <!-- <button><img src="icon/puse icon.png" class="pause icon" alt=""> button</button>  -->
+    
+
+
+  <div class="control">
+    <!-- <img src="icon/previousicon.jfif" class="icon" alt="" onclick="next(0)"> -->
+    <button class="icon" alt="" onclick="next(-1)">previous</button>
+    <!-- <img src="icon/puse icon.png" class="icon" alt="" onclick="playAudio()"> -->
+    <button  class="icon" alt="" onclick="playAudio()">play</button>
+    <!-- <img src="icon/start icon.jfif" class="icon puse" alt="" onclick="pauseAudio()"> -->
+    <button class="icon puse" alt="" onclick="pauseAudio()">pause</button>
+    <!-- <img src="icon/nexticon.png" class="icon" alt="" onclick="next(1)"> -->
+    <button class="icon" alt="" onclick="next(1)">next</button>
+  </div>
+
+  
+  
+  <div class="inputcontainer">
+    <input  class="input" type="range" id="vol" name="vol" min="0" max="100" value="0">
+  </div>
+ 
+ 
+   
+    
+      <!-- <audio class="myAudio">
+        <source src="song/3.mp3" type="audio/mp3">
+      </audio>
+       -->
+      
+      <!-- <audio class="myAudio">
+        <source src="song/3.mp3" type="audio/mp3">
+        <source src="song/3.mp3" type="audio/mpeg"> -->
+      <!-- </audio> -->
+      <!-- Your browser does not support the audio element. -->
+      
+    </main>
+   </div>
+    <footer class="footer">
+      <h3 class="name">TEAM --- INNOVATORS</h3>
+      <div class="musicplayer">
+        <h1>Musicplayer</h1>
+
+      </div>
+
+
+    </footer>
+     <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+*{
+    /* background-color: rgb(48, 42, 42); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    background-color: antiquewhite;
+    max-height: 800px;
+     background-image: url(img/wp6272617-4k-music-wallpapers.jpg);
+    background-size: cover;
+} 
+ 
+
+
+.header{
+    background-color:rgb(71, 50, 50) ;
+    height: 500px;
+    width: 200px;
+    opacity: 0.5;
+}
+.header li{
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    color: rgb(227, 208, 208);
+    font-size:40px ;
+    font-weight: 900;
+    
+
+    
+}
+a{
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 5;
+}
+ 
+.main{
+    position: relative;
+    /* background-color: black; */
+
+}
+#trand{
+    height: 310px;
+    width: 470px;
+    background-color: azure;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    background-image: url(img/songposter.jfif);
+    display: none;
+}
+.slidesong{
+    height: 310px;
+    width: 470px;
+    background-color: azure;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    /* background-image: url(img/songposter.jfif); */
+    display: none;
+    border-radius: 10px;
+    box-shadow:20px 20px 15px rgb(32, 17, 15)  ;
+}
+
+#favourit{
+    height: 310px;
+    width: 470px;
+    background-color: azure;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    background-image: url(img/hirye.jpg);
+    /* background-image: cover;
+     */
+     background-size: cover;
+    display: none;
+    border-radius: 10px;
+    box-shadow:10px 10px 5px rgb(32, 17, 15)  ;
+}
+.shadow{
+    border-radius: 10px;
+    box-shadow:10px 10px 5px rgb(32, 17, 15)  ;
+
+}
+.play{
+    /* background-color: white; */
+    color: white;
+    cursor: pointer;
+    /* width: 40px; */
+
+}
+.play h1:hover{
+    /* background-color: #fff; */
+    color: red;
+}
+#favourit h1{
+    color: white;
+    text-align: center;
+}
+#trand h1{
+    color: white;
+    text-align: center;
+}
+.icon{
+    height: 30px;
+    width: 70px;
+    /* position: relative; */
+    top: 300px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* position: fixed; */
+    background-color:black;
+    color: azure;
+}
+.icon:hover{
+    background-color: rgb(108, 99, 117);
+}
+.input{
+    position: absolute;
+    width: 700px;
+    top: 380px;
+    left: 100px;
+}
+
+.song{
+    border-radius: 30px;
+    background-color: rgb(205, 191, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+#songcontainer{
+    margin: 10px;
+    height: 350px;
+    width: 290px;
+    /* background-color: blueviolet; */
+    overflow-x: scroll;
+    display: none;
+    /* transition: ease 1s ; */
+    border-radius:10px ;
+    /* position: ; */
+    
+}
+.songimages{
+    width: 30px;
+    height: 30px;
+
+}
+.control{
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    position: fixed;
+     
+}
+.footer{
+    background-color: rgb(149, 195, 235);
+    width: 100%;
+    height: 95px;
+    position: relative;
+
+}
+.musicplayer{
+    position: absolute;
+    top: 20px;
+    left: 530px;
+    font-size: 20px;
+}
+#like{
+    position: absolute;
+    left: 790px;
+    width: 140px;
+    height: 140px;
+    /* background-color: brown; */
+    display: none;
+    cursor: pointer;
+}
+#LIKE{
+    position: absolute;
+    left: 790px;
+    width: 140px;
+    height: 140px;
+    /* background-color: rgb(218, 204, 204); */
+    display: none;
+    cursor: pointer;
+}
+.name{
+    padding: 10px;
+    font-size: 40px;
+}
+ 
+ 
